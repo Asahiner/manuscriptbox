@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manuscript.Entity", "Manusc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manuscript.Common", "Manuscript.Common\Manuscript.Common.csproj", "{3BCDD7A0-51A7-4770-B4B8-F0A8F18141EC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{215E2C7D-5E84-48E2-A6EB-17632CAB9B25}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{DDE0370D-9BE3-4F54-88F5-927E44447239}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,5 +49,8 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8311F490-9534-4A57-8687-D7B824DAAE6E}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DDE0370D-9BE3-4F54-88F5-927E44447239} = {215E2C7D-5E84-48E2-A6EB-17632CAB9B25}
 	EndGlobalSection
 EndGlobal
